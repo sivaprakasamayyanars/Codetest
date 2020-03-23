@@ -12,8 +12,10 @@ public class HomeResource
 	@RequestMapping("/")
 	public String home()
 	{
+		logger.info ("Starting the Home service....");
 		logger.trace("Error happened");
 		return "Hello from spring Boot";
 	}
+
 
 }
