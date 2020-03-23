@@ -17,5 +17,6 @@ public class HomeResource
 		return "Hello from spring Boot";
 	}
 
+		logger.info ("The Home service is completed successfully....");
 
 }
